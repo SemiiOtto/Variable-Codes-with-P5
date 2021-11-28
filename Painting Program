@@ -1,0 +1,27 @@
+//mouse tracking circle drawing
+
+function setup() {
+  createCanvas(600, 600);
+  background(0);
+}
+
+function draw() {
+  //mouseX and mouseY used for mouse movemnt with circle
+  //also used with color changing ball in the fill command
+  ellipse(mouseX, mouseY, 55);
+  fill(00, 255, 65, 33);
+  //strokeWeight(mouseX)
+  //stroke(255,0,0)
+  noStroke();
+  }
+  
+//click to reset the board and start over
+
+  function mousePressed(){
+  background(0);
+}
+
+
+Links
+Fullscreen: https://editor.p5js.org/SemiiOtto/full/HYHq4dh5i
+Editor with code: https://editor.p5js.org/SemiiOtto/sketches/HYHq4dh5i
