@@ -1,0 +1,32 @@
+//change the max vars outputs to chnage color waves
+
+
+
+//Vars
+let R, G, B;
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  
+  //set vars max output for random
+  R = (255);
+  G = (255);
+  B = (255);
+  background(0);
+}
+
+function draw() {
+  ellipse(mouseX, mouseY, 55);
+  fill(R, G, B, 90);
+  noStroke(0);
+
+  //random outputs
+  r = random(5, 225);
+  G = random(5, 225);
+  B = random(5, 225);
+}
+
+
+//Links
+//Fullscreen: https://editor.p5js.org/SemiiOtto/full/uP5kF5dXi
+//Editor with codes: https://editor.p5js.org/SemiiOtto/sketches/uP5kF5dXi
